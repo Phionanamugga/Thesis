@@ -25,22 +25,7 @@ Robustness: Handles errors (TypeError, RuntimeError: NoQEngine, ModuleNotFoundEr
 Sustainability: Minimized CodeCarbon verbosity with .codecarbon.config for accurate emissions tracking.
 
 Repository Structure
-transformer_quantisation/
-├── transformer_quantisation.ipynb  # Main notebook with fine-tuning, PTQ, and visualizations
-├── quantisation_results.csv        # Evaluation results (accuracy, latency, memory, emissions)
-├── .codecarbon.config              # CodeCarbon configuration for energy profiling
-├── accuracy_comparison.png         # Visualization: Accuracy bar plot
-├── latency_comparison.png          # Visualization: Latency bar plot
-├── memory_comparison.png           # Visualization: Memory bar plot
-├── model_size_comparison.png       # Visualization: Model size bar plot
-├── emissions_comparison.png        # Visualization: Emissions bar plot
-├── accuracy_vs_latency.png         # Visualization: Accuracy vs Latency scatter
-├── radar_bert-base.png            # Visualization: BERT-base radar chart
-├── radar_distilbert.png           # Visualization: DistilBERT radar chart
-├── emissions_horizontal.png        # Visualization: Horizontal emissions bar
-├── emissions_reduction_pct.png     # Visualization: Emissions reduction percentage
-├── emissions_vs_size.png          # Visualization: Emissions vs Model Size scatter
-├── README.md                      # This file
+
 
 Prerequisites
 
